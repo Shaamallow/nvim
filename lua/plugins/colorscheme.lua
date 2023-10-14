@@ -13,6 +13,10 @@ return {
     opts = {
       flavour = "frappe",
       transparent_background = true,
+      styles = {
+        functions = { "italic" },
+        keywords = { "bold" },
+      },
       integrations = {
         alpha = true,
         cmp = true,
