@@ -18,7 +18,6 @@ return {
         keywords = { "bold" },
       },
       integrations = {
-        alpha = true,
         cmp = true,
         flash = true,
         gitsigns = true,
