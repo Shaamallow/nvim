@@ -4,6 +4,12 @@ return {
     "catppuccin/nvim",
     name = "catppuccin",
     lazy = false,
+    -- config = function()
+    --   require("catppuccin").setup({
+    --     flavour = "frappe",
+    --     transparent_background = true,
+    --   })
+    -- end,
     opts = {
       flavour = "frappe",
       transparent_background = true,
