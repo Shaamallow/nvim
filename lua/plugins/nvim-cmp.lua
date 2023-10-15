@@ -11,7 +11,7 @@ return {
     },
     opts = function()
       vim.api.nvim_set_hl(0, "CmpGhostText", { link = "Comment", default = true })
-      vim.api.nvim_set_hl(0, "CmpBaseCustom", { bg = "#303446" })
+      vim.opt.pumblend = 0
       local cmp = require("cmp")
       local defaults = require("cmp.config.default")()
       return {
@@ -26,11 +26,11 @@ return {
         window = {
           completion = {
             border = "rounded",
-            winhighlight = "Normal:CmpBaseCustom",
+            winhighlight = "Normal:NormalNC,CursorLine:CursorLine",
           },
           documentation = {
             border = "rounded",
-            winhighlight = "Normal:CmpBaseCustom",
+            winhighlight = "Normal:NormalNC,CursorLine:NormalNC",
           },
         },
         mapping = cmp.mapping.preset.insert({
