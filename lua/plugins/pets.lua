@@ -1,7 +1,7 @@
 return {
   {
     "giusgad/pets.nvim",
-    lazy = false,
+    lazy = true,
     dependencies = { "MunifTanjim/nui.nvim", "giusgad/hologram.nvim" },
     opts = {
       row = 7,
