@@ -34,7 +34,7 @@ return {
     },
     config = function()
       -- Settings
-      vim.g.magma_automatically_open_output = false
+      vim.g.magma_automatically_open_output = true
       vim.g.magma_image_provider = "kitty"
       -- Define a custom function to select and evaluate the block between ampersands
       function MagmaEvaluateBlock()
